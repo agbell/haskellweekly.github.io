@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://haskellweekly.news/haskell-weekly.atom</id>
+  <link rel="self" href="https://haskellweekly.news/haskell-weekly.atom" />
+  <title>Haskell Weekly</title>
+  <updated>2019-03-14T00:00:00Z</updated>
+  <author>
+    <name>Haskell Weekly</name>
+    <email>info@haskellweekly.news</email>
+  </author>
+
+  <entry>
+  <id>https://haskellweekly.news/issues/150.html</id>
+  <title>Issue 150</title>
+  <updated>2019-03-14T00:00:00Z</updated>
+  <link href="https://haskellweekly.news/issues/150.html" />
+  <content type="html">&lt;p>Welcome to another issue of Haskell Weekly!
+&lt;a href="https://www.haskell.org">Haskell&lt;/a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://tech.channable.com/posts/2019-03-13-how-we-made-haskell-search-strings-as-fast-as-rust.html">How we made Haskell search strings as fast as Rust&lt;/a> by Ruud van Asseldonk&lt;/p>
+&lt;blockquote>
+&lt;p>In this post, we will describe our quest to create Alfred-Margaret, the fastest Haskell implementation of the Aho-Corasick string searching algorithm, which powers string search in Channable.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://blog.ploeh.dk/2019/03/11/an-example-of-state-based-testing-in-haskell/">An example of state-based testing in Haskell&lt;/a> by Mark Seemann&lt;/p>
+&lt;blockquote>
+&lt;p>This article is an instalment in an article series about how to move from interaction-based testing to state-based testing.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://codurance.com/2019/03/12/bank-kata-in-haskell-date/">Bank kata in Haskell - using and testing date&lt;/a> by Liam Griffin-Jowett&lt;/p>
+&lt;blockquote>
+&lt;p>Our final task to complete the kata is to add a date to the transactions. We will implement this in small logical steps, using the compiler and the tests to drive our design.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://gallais.github.io/blog/ceci-pas-default">Ceci n’est pas un default&lt;/a> by Guillaume Allais&lt;/p>
+&lt;blockquote>
+&lt;p>Being the default value is not the same as being actively set to a value which happens to match the default. &lt;code>Maybe&lt;/code> as a type constructor enriching an existing type with a default value is not satisfactory: what this default value means is not documented in the type.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://runtimeverification.com/blog/code-smell-boolean-blindness/">Code smell: Boolean blindness&lt;/a> by Thomas Tuegel&lt;/p>
+&lt;blockquote>
+&lt;p>The popular term “boolean blindness” refers to the information lost by functions that operate on Bool when richer structures are available. Erasing such structure can give code a bad smell.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://blog.ramdoot.in/deriving-not-so-complex-types-ec5987f6d95c">Deriving not-so-complex types&lt;/a> by Arvind Devarajan&lt;/p>
+&lt;blockquote>
+&lt;p>Often times, I get to read Haskell code with these patterns: &lt;code>(fmap . fmap)&lt;/code>, &lt;code>fmap (&amp;lt;*&amp;gt;)&lt;/code>, etc. I’ve just taken three of these types, and break these into their intuitions here in the hopes that somebody out there can understand when to use these.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.fpcomplete.com/blog/enhancing-file-durability-in-programs">Enhancing File Durability in Your Programs&lt;/a> by Roman Gonzalez&lt;/p>
+&lt;blockquote>
+&lt;p>An unexpected shutdown (like a kernel panic, or unplugging the power cord) in a machine should not affect the durability of confirmed writes in programs we develop.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://reasonablypolymorphic.com/blog/freer-yet-too-costly/">Freer, yet Too Costly Higher-order Effects&lt;/a> by Sandy Maguire&lt;/p>
+&lt;blockquote>
+&lt;p>As of today I have free, higher-order effects working. Unfortunately, they are not fast. I don’t think this is a fundamental limitation, merely that whatever code I’ve written isn’t amenable to GHC’s optimization process.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://mmhaskell.com/blog/2019/2/7/modifying-a-library">Modifying a Library!&lt;/a> by Monday Morning Haskell&lt;/p>
+&lt;blockquote>
+&lt;p>We can see how to incorporate the change without stressing about its complexity. Even if you’re only a beginner, this is a good skill to learn now!&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.stackbuilders.com/news/types-versus-tests-two-approaches-for-writing-correct-software">Types versus Tests: two approaches for writing correct software&lt;/a> by Javier Casas&lt;/p>
+&lt;blockquote>
+&lt;p>We try our best to have software without bugs. It’s just a hard problem, and no silver bullet to slay this beast. All we have are several approaches at trying to kick the bugs out of the software.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://functional.works-hub.com/jobs/haskell-team-lead-in-tel-aviv-israel-6fad4">Haskell Team Lead at Zoomin in Tel Aviv&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://relex.recruiterbox.com/jobs/fk01gjr/">Haskell Developer at Relex in Helsinki&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jobs.chordify.net/functional-programmer/en">Functional Programmer at Chordify in Utrecht&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://np.reddit.com/r/haskell/comments/b00us9/groq_is_hiring/">Engineer at Groq in Menlo Park&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pyrofex.io/career/cryptocurrency-software-engineer/">Cryptocurrency Software Engineer at Pyrofex in Utah&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tweag.io/posts/2019-03-11-internships.html">Tweag Internship Programme 2019&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://formation.ai/careers/intern-sre">SRE Intern at Formation in San Francisco&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://guide.aelve.com/haskell/popular-blogs-dila2lox">Aelve Guide: Popular blogs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://oleg.fi/gists/posts/2019-03-14-topograph.html">ANN: topograph&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discourse.dhall-lang.org/">Dhall Discourse&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.radicle.xyz/">Radicle: A peer-to-peer stack for code collaboration&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dimjasevic.net/marko/2019/03/10/recording-of-my-talk-at-lambda-days-2019/">Recording of My Talk at Lambda Days 2019&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discourse.haskell.org/t/taskell-cmt-and-brok/451?u=taylorfausak">Taskell, Cmt, and Brök&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discourse.haskell.org/t/trigger-small-utility-to-restart-your-app-on-recompile/452?u=taylorfausak">Trigger: small utility to restart your app on recompile&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://typeclasses.com/news/2019-03-coercion-and-datatype-contexts">Type Classes: Coercion and datatype contexts&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.logrocket.com/typescript-vs-purescript-not-all-compilers-are-created-equal-c16dadaa7d3e">TypeScript vs PureScript: Not all compilers are created equal&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://np.reddit.com/r/haskell/comments/ay8kkx/what_is_the_utility_of_row_polymorphism/">What is the utility of row polymorphism?&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://hackage.haskell.org/package/sbv-8.1">SBV&lt;/a> (SMT Based Verification), a library that allows you to express properties about Haskell programs and automatically prove them using SMT (Satisfiability Modulo Theories) solvers.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/fused-effects/fused-effects/issues/124">fused-effects: Carriers should INLINE their Applicative/Monad/etc. instances&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/spacchetti/spago/issues/131">spago: &lt;code>spago run&lt;/code> command&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;h3>North America&lt;/h3>
+&lt;ul>
+&lt;li>2019-03-14 in Raleigh, NC, USA by Raleigh Haskell Meetup: &lt;a href="https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzfbsb/">(hack . yack)&lt;/a>&lt;/li>
+&lt;li>2019-03-14 in Bellevue, WA, USA by Fun(c)tional Programming Group: &lt;a href="https://www.meetup.com/fun-c-group/events/259602038/">Oli Makhasoeva - Develop micro-services with Mu&lt;/a>&lt;/li>
+&lt;li>2019-03-16 in Boston, MA, USA by Weekly Functional Programming Meetup: &lt;a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/mlhjtqyzfbvb/">Hang out + short talk (WebGL in Elm by Ashish Chandwani)&lt;/a>&lt;/li>
+&lt;li>2019-03-16 in Bellevue, WA, USA by Seattle Area Haskell Users’ Group: &lt;a href="https://www.meetup.com/SEAHUG/events/htlvcpyzfbvb/">General discussion&lt;/a>&lt;/li>
+&lt;li>2019-03-18 in Irvine, CA by Orange Combinator - Functional Programming In OC: &lt;a href="https://www.meetup.com/orange-combinator/events/lxvjrpyzfbxb/">Combinating - The Weekly Function&lt;/a>&lt;/li>
+&lt;li>2019-03-18 in Portland, OR, USA by Portland Functional Programming Study Group: &lt;a href="https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/qjbbjqyzfbxb/">PDX Func Practice Track - Parallel and Concurrent Programming in Haskell&lt;/a>&lt;/li>
+&lt;li>2019-03-18 in Lehi, UT, USA by Utah Haskell: &lt;a href="https://www.meetup.com/utah-haskell/events/fmdsrqyzfbxb/">Utah Haskell Meetup | Book Club&lt;/a>&lt;/li>
+&lt;li>2019-03-19 in Minneapolis, USA by HaskellMN: &lt;a href="https://www.meetup.com/HaskellMN/events/ndtxfpyzfbzb/">HaskellMN Monthly Meetup&lt;/a>&lt;/li>
+&lt;li>2019-03-19 in Brooklyn, NY, USA by New York Haskell Users Group: &lt;a href="https://www.meetup.com/NY-Haskell/events/vxvdtqyzfbzb/">Parallel and Concurrent Haskell Reading Group&lt;/a>&lt;/li>
+&lt;li>2019-03-19 in Atlanta, GA, USA by Atlanta Functional Programming Meetup: &lt;a href="https://www.meetup.com/Atlanta-Functional-Programming-Meetup/events/259503749/">Introduction to Haskell&lt;/a>&lt;/li>
+&lt;li>2019-03-20 in St. Louis, MO, USA by Haskell Users Group: St. Louis: &lt;a href="https://www.meetup.com/Haskell-Users-Group-St-Louis/events/258718607/">Haskell Setup Workshop&lt;/a>&lt;/li>
+&lt;li>2019-03-20 in Seattle, WA, USA by Beerly Functional: &lt;a href="https://www.meetup.com/Beerly-Functional/events/vxhwkqyzfbbc/">Think Functionally&lt;/a>&lt;/li>
+&lt;li>2019-03-20 in Houston, TX, USA by Houston Functional Programmers: &lt;a href="https://www.meetup.com/Houston-Functional-Programmers/events/znbbqqyzfbbc/">Building Single Page Applications with ClojureScript and react.js&lt;/a>&lt;/li>
+&lt;li>2019-03-21 in Las Vegas, NV, USA by Las Vegas Functional Programming User Group: &lt;a href="https://www.meetup.com/las-vegas-functional-programming/events/jkznkqyzfbcc/">Functional Programming Meetup&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Europe&lt;/h3>
+&lt;ul>
+&lt;li>2019-03-14 in London, United Kingdom by Hoodlums: &lt;a href="https://www.meetup.com/hoodlums/events/hrbdtnyzfbsb/">Hoodlums Meetup&lt;/a>&lt;/li>
+&lt;li>2019-03-16 in Berlin, Germany by Study Haskell: &lt;a href="https://www.meetup.com/Study-Haskell/events/gwtsqqyzfbvb/">Weekly Haskell-studying session&lt;/a>&lt;/li>
+&lt;li>2019-03-18 in Karlsruhe, Germany by Karlsruhe Haskell Meetup: &lt;a href="https://www.meetup.com/Karlsruhe-Haskell-Meetup/events/258071691/">Parallel and Concurrent Programming Study Group&lt;/a>&lt;/li>
+&lt;li>2019-03-18 in Iași, Romania by Iasi Haskell: &lt;a href="https://www.meetup.com/iasihaskell/events/259553851/">Haskell - Introducere si concepte de baza&lt;/a>&lt;/li>
+&lt;li>2019-03-18 in London EC2, United Kingdom by Skills Matter - X Matters Keynote Series - Developer Events: &lt;a href="https://www.meetup.com/skillsmatter/events/259330947/">Data Matters with Hollie Lubbock!&lt;/a>&lt;/li>
+&lt;li>2019-03-19 in London EC2, United Kingdom by Skills Matter - X Matters Keynote Series - Developer Events: &lt;a href="https://www.meetup.com/skillsmatter/events/259088898/">Leadership Matters with Douglas Squirrel and Jeffrey Fredrick!&lt;/a>&lt;/li>
+&lt;li>2019-03-20 in Berlin, Germany by Berlin Haskell Users Group: &lt;a href="https://www.meetup.com/berlinhug/events/pvpwqpyzfbbc/">Haskell Wednesday&lt;/a>&lt;/li>
+&lt;li>2019-03-20 in Budapest, Hungary by Budapest Haskell User Group: &lt;a href="https://www.meetup.com/Bp-HUG/events/259262616/">Haskell Book reading group (27th Ed.)&lt;/a>&lt;/li>
+&lt;li>2019-03-20 in London, United Kingdom by Skills Matter - X Matters Keynote Series - Developer Events: &lt;a href="https://www.meetup.com/skillsmatter/events/259702614/">Ops Matters with Justin Davies! &lt;/a>&lt;/li>
+&lt;li>2019-03-20 in Prague, Czech Republic by Prague Lambda Meetup: &lt;a href="https://www.meetup.com/Lambda-Meetup-Group/events/258696067/">Quantum Lambda&lt;/a>&lt;/li>
+&lt;li>2019-03-21 in London, United Kingdom by Skills Matter - X Matters Keynote Series - Developer Events: &lt;a href="https://www.meetup.com/skillsmatter/events/257029130/">Skills Matter - iOSCon 2019&lt;/a>&lt;/li>
+&lt;li>2019-09-21 in London: &lt;a href="https://lambdale.org">LambdaAle 2019&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Oceania&lt;/h3>
+&lt;ul>
+&lt;li>2019-03-18 in Perth, Australia by Perth Functional Programmers: &lt;a href="https://www.meetup.com/PerthFP/events/xrtkqqyzfbxb/">Haskell meetup&lt;/a>&lt;/li>
+&lt;li>2019-03-20 in Auckland, New Zealand by Functional Programming Auckland: &lt;a href="https://www.meetup.com/Functional-Programming-Auckland/events/259573595/">2 Talks: Introduction to Hakyll &amp;amp; Making Sense of Applicative Do&lt;/a>&lt;/li>
+&lt;li>2019-03-21 in Kota Jakarta Pusat, Indonesia by Lambda Indonesia: &lt;a href="https://www.meetup.com/lambdaindonesia/events/259616507/">Sharing Ilmu Bersama Ariya Hidayat dan Tito Pandu&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Asia&lt;/h3>
+&lt;ul>
+&lt;li>2019-03-15 in Noida, India by Reactive Application Programmers in Delhi NCR: &lt;a href="https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/259354521/">MEETUP | Lifetime in Rust&lt;/a>&lt;/li>
+&lt;li>2019-03-16 in Bengaluru, India by Bangalore Functional Programmers Meetup: &lt;a href="https://www.meetup.com/Bangalore-Functional-Programmers-Meetup/events/259289861/">Lets Lens - Part 2&lt;/a>&lt;/li>
+&lt;/ul>
+</content>
+</entry>
+<entry>
+  <id>https://haskellweekly.news/issues/149.html</id>
+  <title>Issue 149</title>
+  <updated>2019-03-07T00:00:00Z</updated>
+  <link href="https://haskellweekly.news/issues/149.html" />
+  <content type="html">&lt;p>Welcome to another issue of Haskell Weekly!
+&lt;a href="https://www.haskell.org">Haskell&lt;/a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://winterland.me/2019/03/05/aeson&amp;#x27;s-mysterious-lazy-parsing/">Aeson’s mysterious lazy parsing&lt;/a> by Han Dong Zhu&lt;/p>
+&lt;blockquote>
+&lt;p>Aeson provide two flavor of parsing entrances: &lt;code>decode&lt;/code> and &lt;code>decode'&lt;/code>. The document on &lt;code>decode&lt;/code> says that “This function parses immediately, but defers conversion.”&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://jaspervdj.be/posts/2019-02-27-beeraffe.html">Beeraffe&lt;/a> by Jasper Van der Jeugt&lt;/p>
+&lt;blockquote>
+&lt;p>This weekend, I finished a silly little game in PureScript called Beeraffe. In this blogpost, I want to give some more background information on how this game came to be.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://markkarpov.com/tutorial/exceptions.html">Exceptions tutorial from IH book&lt;/a> by Mark Karpov&lt;/p>
+&lt;blockquote>
+&lt;p>In a language like Haskell, with its strong and powerful type system, why should we “contaminate” such a language with the concept of exceptions?&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://ghc.haskell.org/trac/ghc/blog/ghc-8.6.4-released">GHC 8.6.4 released&lt;/a> by Ben Gamari&lt;/p>
+&lt;blockquote>
+&lt;p>The GHC team is very happy to announce the availability of GHC 8.6.4, a bugfix release in the GHC 8.6 series. The 8.6.4 release fixes several regressions present in 8.6.3.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://blog.benwiener.com/programming/2019/02/23/ogear-puzzle.html">Hanayama O’Gear Puzzle&lt;/a> by Ben Wiener&lt;/p>
+&lt;blockquote>
+&lt;p>I tried solving the puzzle for about fifteen minutes before deciding to use a computer. My basic strategy was to treat the problem as a graph search, where the nodes of the graph are the different states the cube and gear can be in.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://coot.me/posts/monoidal-functors.html">Monoidal and Applicative Functors&lt;/a> by Marcin Szamotulski&lt;/p>
+&lt;blockquote>
+&lt;p>In this post we will explore the equivalence between applicative and monoidal functors (i.e. functors which preserve cartesian product).&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://typeclasses.com/news/2019-03-learning-oo">Object oriented Haskell&lt;/a> by Julie Moronuki&lt;/p>
+&lt;blockquote>
+&lt;p>This week’s most exciting announcement is that I am learning a bit of object-oriented programming and how that translates into Haskell.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://wickstrom.tech/programming/2019/03/02/property-based-testing-in-a-screencast-editor-introduction.html">Property-Based Testing in a Screencast Editor: Introduction&lt;/a> by Oskar Wickström&lt;/p>
+&lt;blockquote>
+&lt;p>This is the first in a series of posts about using property-based testing (PBT) within Komposition, a screencast editor that I’ve been working on during the last year.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://blog.sumtypeofway.com/recursion-schemes-part-6-comonads-composition-and-generality/">Recursion Schemes, Part VI: Comonads, Composition, and Generality&lt;/a> by Patrick Thomson&lt;/p>
+&lt;blockquote>
+&lt;p>Now that we’ve covered folds (&lt;code>cata&lt;/code>, &lt;code>para&lt;/code>, and &lt;code>histo&lt;/code>), unfolds (&lt;code>ana&lt;/code>, &lt;code>apo&lt;/code>, and &lt;code>futu&lt;/code>), and refolds (&lt;code>hylo&lt;/code>, &lt;code>hypo&lt;/code>, &lt;code>elgot&lt;/code>, and &lt;code>chrono&lt;/code>), I hope I have showed that recursion schemes are a useful tool to organize programs, beautify code, and clarify human intent.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.linkedin.com/jobs/view/1104480045/">Software engineer at ITProTV in Gainesville&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>ITProTV is disrupting the eLearning world with engaging online training that people actually want to watch. We are currently accepting applications for full-stack software professionals to join our small but talented multidisciplinary team.&lt;/p>
+&lt;/blockquote>
+&lt;p>Taylor Fausak, the editor of Haskell Weekly, is the lead engineer at ITProTV.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/dhall-lang/dhall-lang/releases/tag/v6.0.0">Dhall version 6.0.0&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSeJgeTqAdYLBlRcO9PDzI3yrR22CqzhInHpelnqWzOrs5Wg9A/viewform">Haskell eXchange 2019 - Call for Papers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://juliendehos.gitlab.io/lillefp-2019-isomorphic/">Isomorphic web apps in Haskell&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/snowleopard/selective/tree/04a6ed3a38d36d09d402fb59956fdb08aa193c5e">Selective applicative functors&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://hackage.haskell.org/package/fakedata-0.1.0.0">&lt;code>fakedata&lt;/code>&lt;/a>,
+a library for producing fake data such as names, addressess and phone numbers.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/DataHaskell/dh-core/issues/46">dh-core: Add test coverage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/simonmichael/hledger/issues/982">hledger: Regex aliases do not allow forward-slash ‘/’ character&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/neovimhaskell/nvim-hs/issues/78">nvim-hs: Fix ci&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;h3>North America&lt;/h3>
+&lt;ul>
+&lt;li>2019-03-07 in Raleigh, NC, USA by Raleigh Haskell Meetup: &lt;a href="https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzfbkb/">(hack . yack)&lt;/a>&lt;/li>
+&lt;li>2019-03-07 in Las Vegas, NV, USA by Las Vegas Functional Programming User Group: &lt;a href="https://www.meetup.com/las-vegas-functional-programming/events/jkznkqyzfbkb/">Functional Programming Meetup&lt;/a>&lt;/li>
+&lt;li>2019-03-08 in Austin, TX, USA by Austin Types, Theorems, and Programming Languages: &lt;a href="https://www.meetup.com/Austin-Types-Theorems-and-Programming-Languages/events/kbqknnyzfblb/">Going through Software Foundations by Benjamin Pierce et al&lt;/a>&lt;/li>
+&lt;li>2019-03-09 in San Diego, CA, USA by San Diego Software Development Deep Dive: &lt;a href="https://www.meetup.com/San-Diego-Software-Development-Deep-Dive/events/mtzbkqyzfbmb/">Diving deeper into software development discussions &lt;/a>&lt;/li>
+&lt;li>2019-03-09 in Norcross, GA, USA by Atlambda Haskathon: &lt;a href="https://www.meetup.com/Atlambda-Haskathon/events/ggbspqyzfbmb/">Atlambda Haskathon&lt;/a>&lt;/li>
+&lt;li>2019-03-09 in Berkeley, CA by Code Self Study: &lt;a href="https://www.meetup.com/codeselfstudy/events/dkwpzpyzfbmb/">Open Programming Session (Saturday Afternoon)&lt;/a>&lt;/li>
+&lt;li>2019-03-09 in Boston, MA, USA by Weekly Functional Programming Meetup: &lt;a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/vdlnqpyzfbmb/">Hang out, chat FP, work on some code&lt;/a>&lt;/li>
+&lt;li>2019-03-12 in Vancouver, BC, Canada by Functional Programming Vancouver: &lt;a href="https://www.meetup.com/Functional-Programming-Vancouver/events/vcqjrqyzfbqb/">Functional Programming Meetup&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Europe&lt;/h3>
+&lt;ul>
+&lt;li>2019-03-07 in Graz, Austria by Functional Programming Graz: &lt;a href="https://www.meetup.com/Functional-Programming-Graz/events/qbrnrlyzfbkb/">Functional Programming Meetup&lt;/a>&lt;/li>
+&lt;li>2019-03-07 in Brno-střed, Czech Republic by Functional Programming Brno: &lt;a href="https://www.meetup.com/fpbrno/events/259327258/">FP Pivo&lt;/a>&lt;/li>
+&lt;li>2019-03-09 in Berlin, Germany by Study Haskell: &lt;a href="https://www.meetup.com/Study-Haskell/events/gwtsqqyzfbmb/">Weekly Haskell-studying session&lt;/a>&lt;/li>
+&lt;li>2019-03-11 in Karlsruhe, Germany by Karlsruhe Haskell Meetup: &lt;a href="https://www.meetup.com/Karlsruhe-Haskell-Meetup/events/258073240/">Parallel and Concurrent Programming Study Group – Vorbesprechung&lt;/a>&lt;/li>
+&lt;li>2019-03-11 in București, Romania by Bucharest FP: &lt;a href="https://www.meetup.com/bucharestfp/events/259497680/">Bucharest FP #45 — Haskell Book Study Group 06&lt;/a>&lt;/li>
+&lt;li>2019-03-11 in Delft, Netherlands by Delft Haskell Study Group: &lt;a href="https://www.meetup.com/Delft-Haskell-Study-Group/events/259496224/">Haskell Study Session #3&lt;/a>&lt;/li>
+&lt;li>2019-03-11 in London, United Kingdom by Skills Matter - X Matters Keynote Series - Developer Events: &lt;a href="https://www.meetup.com/skillsmatter/events/258990860/">JavaScript Matters with Lisa Gagarina!&lt;/a>&lt;/li>
+&lt;li>2019-03-12 in Rennes, France by Meetup Lambda Rennes - Programmation fonctionnelle: &lt;a href="https://www.meetup.com/Meetup-Lambda-Rennes-Programmation-fonctionnelle/events/259439151/">Cycle.js&lt;/a>&lt;/li>
+&lt;li>2019-03-12 in Düsseldorf, Germany by Clojure Düsseldorf: &lt;a href="https://www.meetup.com/Clojure-Duesseldorf/events/259304774/">Clojure: Auf den Pfaden des Mars Rovers&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Asia&lt;/h3>
+&lt;ul>
+&lt;li>2019-03-07 in Mumbai, India by DelhiNCR Haskell And Functional Programming Languages Group: &lt;a href="https://www.meetup.com/DelhiNCR-Haskell-And-Functional-Programming-Languages-Group/events/lrfxfqyzfbkb/">FPNCR Monthly meetup&lt;/a>&lt;/li>
+&lt;li>2019-03-08 in Noida, India by Reactive Application Programmers in Delhi NCR: &lt;a href="https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/259355897/">MEETUP | Introduction to Java 11&lt;/a>&lt;/li>
+&lt;li>2019-03-10 in Bengaluru, India by Bangalore Functional Programmers Meetup: &lt;a href="https://www.meetup.com/Bangalore-Functional-Programmers-Meetup/events/258897893/">Lets Lens - Part 1&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>South America&lt;/h3>
+&lt;ul>
+&lt;li>2019-03-07 in Santiago, Chile by Santiago Scala Meetup: &lt;a href="https://www.meetup.com/Santiago-Scala-Meetup/events/hfvtlpyzfbkb/">Santiago Scala Meetup&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Africa&lt;/h3>
+&lt;ul>
+&lt;li>2019-03-11 in Sandton, South Africa by Lambda Luminaries: &lt;a href="https://www.meetup.com/lambda-luminaries/events/rkdhnqyzfbpb/">Placeholder: Putting the Fun back in Functional at Lambda Luminaries&lt;/a>&lt;/li>
+&lt;/ul>
+</content>
+</entry>
+<entry>
+  <id>https://haskellweekly.news/issues/148.html</id>
+  <title>Issue 148</title>
+  <updated>2019-02-28T00:00:00Z</updated>
+  <link href="https://haskellweekly.news/issues/148.html" />
+  <content type="html">&lt;p>Welcome to another issue of Haskell Weekly!
+&lt;a href="https://www.haskell.org">Haskell&lt;/a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.ramanan.com/personal-blog/2019/2/25/functional-programming-and-venture-capital">A Secret Weapon for Startups — Functional Programming?&lt;/a> by Ramanan Raghavendran&lt;/p>
+&lt;blockquote>
+&lt;p>There is no question that Freckle’s choice of Haskell — a direct descendant of LISP — as its coding language intrigued me and got me even more hooked on the business.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html">Adding a GHC language extension&lt;/a> by Shayne Fletcher&lt;/p>
+&lt;blockquote>
+&lt;p>This note summarizes the essential mechanics of adding a new language extension to GHC. The example code will illustrate adding a &lt;code>Foo&lt;/code> extension.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://forum.aelve.com/t/announcing-aelve-codesearch-an-online-grep-over-package-repositories/44">Announcing Aelve Codesearch, an online grep over package repositories&lt;/a> by Artyom Kazak&lt;/p>
+&lt;blockquote>
+&lt;p>Today we’re releasing the first version of Codesearch 60 — an online search through all Haskell, Rust, and Ruby packages. With support for regular expressions!&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://deptype.com/posts/2019-02-21-create-blog-nix-hakyll-aws.html">Creating Blog with Hakyll, Nix and Deploying on Amazon EC2&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>This blog is created using Hakyll and in this post we will see how to setup the hakyll development environment using nix and deploy the website on to Amazon s3 and also on how to deploy website on Amazon EC2 instance.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://chshersh.github.io/posts/2019-02-25-haskell-travis">Dead simple Haskell Travis settings for cabal and stack&lt;/a> by Dmitrii Kovanikov&lt;/p>
+&lt;blockquote>
+&lt;p>Today I am going to share a simple Travis CI configuration for Haskell projects with you. The &lt;code>.travis.yml&lt;/code> file presented in this blog post allows you to painlessly test your repository on the continuous integration service under multiple GHC versions and with both build tools — &lt;code>cabal-install&lt;/code> and &lt;code>stack&lt;/code>.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://summer.haskell.org/news/2019-02-26-accepted-for-gsoc.html">Haskell.Org Participating in GSoC 2019&lt;/a> by Jasper Van der Jeugt&lt;/p>
+&lt;blockquote>
+&lt;p>We’re very excited to announce that Haskell.Org has been accepted into the Google Summer of Code 2019 program. We hope that, like last year, it will lead to a whole range of improvements to the Haskell ecosystem, and to new faces joining our community!&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://discourse.haskell.org/t/local-capabilities-with-mtl/231?u=taylorfausak">Local Capabilities with MTL&lt;/a> by Sam Halliday&lt;/p>
+&lt;blockquote>
+&lt;p>In this post, we will demonstrate a way to encode capabilities that remain local to a single component. Our example builds on the Servant Tutorial and will also show how Servant client endpoints can be mocked out for unit testing.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.fpcomplete.com/blog/quickcheck-hedgehog-validity">QuickCheck, Hedgehog, Validity&lt;/a> by Tom Sydney Kerckhove&lt;/p>
+&lt;blockquote>
+&lt;p>This post seeks to provide an overview of the different approaches and to outline a comparison between the most commonly used libraries for property-based testing in Haskell.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://discourse.haskell.org/t/welcome-to-the-haskell-discourse/7?u=taylorfausak">Welcome to the Haskell Discourse!&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Any discussion about Haskell is welcome on this forum. In particular the following topics are encouraged: Announcements about new libraries and applications; Links to blog posts; Requests for help.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh">What the heck is polymorphism?&lt;/a> by Jan van Brügge&lt;/p>
+&lt;blockquote>
+&lt;p>Polymorphism is the idea of defining data structures or algorithms in general, so you can use them for more than one data type. The complete answer is a bit more nuanced though.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.linkedin.com/jobs/view/1104480045/">Software engineer at ITProTV in Gainesville&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>ITProTV is disrupting the eLearning world with engaging online training that people actually want to watch. We are currently accepting applications for full-stack software professionals to join our small but talented multidisciplinary team.&lt;/p>
+&lt;/blockquote>
+&lt;p>Taylor Fausak, the editor of Haskell Weekly, is the lead engineer at ITProTV.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://vlc.bamboohr.com/jobs/view.php?id=41">Software Developer at VLC in Brisbane&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>VLC is looking for a Software Developer to join its Future Transport Lab. In this position, you will work with numerous technologies in supporting delivery of a wide range of Research and Development projects across the Transport Modelling and Analytics and Out of Home (OOH) media sectors.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://whatthefunctional.wordpress.com/2019/02/21/a-brief-introduction-to-the-%CE%BB-calculus-part-2/">A Brief Introduction to the λ-Calculus (Part 2)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://blog.vmchale.com/article/cpkg-announce">A Case Study in Dhall for Package Configuration&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.schoolofhaskell.com/user/agocorona/EDSL-for-hard-working-IT-programmers">An EDSL for hard working IT programmers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mmhaskell.com/blog/2019/2/25/another-idea-haskell-and-intellij">Another IDEa: Haskell and IntelliJ!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.haskellforall.com/2019/02/dhall-survey-results-2019-2019.html">Dhall Survey Results&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://np.reddit.com/r/haskell/comments/atsngn/gudni_a_haskellcentric_fast_accurate_rasterizer/">Gudni: A Haskell-centric Fast Accurate Rasterizer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@cdsmithus/idle-speculation-on-lenses-and-zippers-a5d2746678e4">Idle Speculation on Lenses and Zippers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://habr.com/en/post/441350/">Is Haskell really the language of geniuses and academia?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://markkarpov.com/megaparsec/megaparsec.html">Megaparsec tutorial from IH book&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.apress.com/de/book/9781484237380">Practical Web Development with Haskell&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discourse.purescript.org/t/purescript-compiler-release-v0-12-3/654">PureScript compiler release v0.12.3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://typeclasses.com/news/2019-02-clocks-again">Return of the Clocks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://np.reddit.com/r/haskell/comments/avaxda/the_campaign_for_my_book_functional_design_and/">The campaign for my book “Functional Design and Architecture” &lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://byorgey.wordpress.com/2019/02/24/whats-the-right-way-to-quickcheck-floating-point-routines/">What’s the right way to QuickCheck floating-point routines?&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://hackage.haskell.org/package/waargonaut-0.6.1.0">Waargonaut&lt;/a>,
+a library for flexible, precise, and efficient JSON decoding/encoding.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/exercism/haskell/issues/799">exercism/haskell: Bank Account: Hard to guess approach to exercise&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/purebred-mua/purebred/issues/258">purebred: Replace &lt;code>selectedItemHelper&lt;/code> with over and L.listModify&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;h3>North America&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-28 in Raleigh, NC, USA by Raleigh Haskell Meetup: &lt;a href="https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzdblc/">(hack . yack)&lt;/a>&lt;/li>
+&lt;li>2019-02-28 in Portland, OR, USA by Portland Functional Programming Study Group: &lt;a href="https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/mpwwbqyzdbkc/">PDX Func Theory Track - Logic and Proof&lt;/a>&lt;/li>
+&lt;li>2019-02-28 in Chicago, IL, USA by The Project Euler Sprint: &lt;a href="https://www.meetup.com/Project-Euler-Sprint/events/ngwzxmyzdblc/">Project Euler Sprint&lt;/a>&lt;/li>
+&lt;li>2019-02-28 in Calgary, AL, Canada by Functional Programmers YYC: &lt;a href="https://www.meetup.com/Functional-Programmers-YYC/events/tqfjpqyzdbsb/">Unconf (YYC.FP)&lt;/a>&lt;/li>
+&lt;li>2019-03-02 in Boston, MA, USA by Weekly Functional Programming Meetup: &lt;a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/vdlnqpyzfbdb/">Hang out + short talk (A Whirlwind Tour of Type Theory by Ian Denhardt)&lt;/a>&lt;/li>
+&lt;li>2019-03-04 in Irvine, CA by Orange Combinator - Functional Programming In OC: &lt;a href="https://www.meetup.com/orange-combinator/events/lxvjrpyzfbgb/">Combinating - The Weekly Function&lt;/a>&lt;/li>
+&lt;li>2019-03-04 in Portland, OR, USA by Portland Functional Programming Study Group: &lt;a href="https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/rtfghqyzfbgb/">PDX Func Practice Track - Parallel and Concurrent Programming in Haskell&lt;/a>&lt;/li>
+&lt;li>2019-03-05 in Santa Monica, CA, USA by Santa Monica Haskell Users Group: &lt;a href="https://www.meetup.com/santa-monica-haskell/events/259283993/">Haskell Hack Night&lt;/a>&lt;/li>
+&lt;li>2019-03-05 in Madison, WI, USA by Haskallywags: &lt;a href="https://www.meetup.com/Haskallywags/events/258731416/">TypeScript&lt;/a>&lt;/li>
+&lt;li>2019-03-06 in Austin, TX, USA by Austin Haskell Users Group: &lt;a href="https://www.meetup.com/ATX-Haskell/events/dsldppyzfbjb/">Haskell Beginner-Friendly Lab&lt;/a>&lt;/li>
+&lt;li>2019-03-06 in Washington, DC, USA by The Joy of Programming Meetup: &lt;a href="https://www.meetup.com/Joy-of-Programming-DC/events/xpnxbpyzfbjb/">Next Round (TBD)&lt;/a>&lt;/li>
+&lt;li>2019-03-06 in Bellevue, WA, USA by SeaLang: &lt;a href="https://www.meetup.com/SeaLang/events/255357257/">Exploring the type system of ReasonML/OCaml&lt;/a>&lt;/li>
+&lt;li>2019-03-06 in New York, NY, USA by New York Haskell Users Group: &lt;a href="https://www.meetup.com/NY-Haskell/events/259189477/">Implementing In-memory Caches in Haskell with Jasper Van Der Jeugt&lt;/a>&lt;/li>
+&lt;li>2019-03-07 in Raleigh, NC, USA by Raleigh Haskell Meetup: &lt;a href="https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzfbkb/">(hack . yack)&lt;/a>&lt;/li>
+&lt;li>2019-03-07 in Las Vegas, NV, USA by Las Vegas Functional Programming User Group: &lt;a href="https://www.meetup.com/las-vegas-functional-programming/events/jkznkqyzfbkb/">Functional Programming Meetup&lt;/a>&lt;/li>
+&lt;li>2019-03-27 in Toronto, ON, Canada by Toronto Haskell Meetup: &lt;a href="https://www.meetup.com/meetup-group-evRITRtT/events/259124679/">Haskell Meetup: Lightning Talks and Hack Night 2&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Europe&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-28 in Zürich, Switzerland by HaskellerZ: &lt;a href="https://www.meetup.com/HaskellerZ/events/258665750/">Zurich Friends of Haskell - General Assembly&lt;/a>&lt;/li>
+&lt;li>2019-02-28 in Zürich, Switzerland by HaskellerZ: &lt;a href="https://www.meetup.com/HaskellerZ/events/258850066/">Artem Chirkin - Experimenting with Constraints&lt;/a>&lt;/li>
+&lt;li>2019-02-28 in Son, Netherlands by F#P Eindhoven: &lt;a href="https://www.meetup.com/F-P-Eindhoven/events/258893932/">Introduction to Fable and an applied use-case using F# and FP techniques&lt;/a>&lt;/li>
+&lt;li>2019-02-28 in Göteborg, Sweden by Got.λ - Göteborg Functional Programming Group: &lt;a href="https://www.meetup.com/got-lambda/events/258446674/">All about monads, and Phocate: A monadic parser in and for PHP&lt;/a>&lt;/li>
+&lt;li>2019-02-28 in London, United Kingdom by London Functional Programmers: &lt;a href="https://www.meetup.com/London-Functionals/events/258555586/">LDN Functionals Meetup #16 - Hosted by Revolut, E14 4HD &lt;/a>&lt;/li>
+&lt;li>2019-03-02 in Berlin, Germany by Study Haskell: &lt;a href="https://www.meetup.com/Study-Haskell/events/gwtsqqyzfbdb/">Weekly Haskell-studying session&lt;/a>&lt;/li>
+&lt;li>2019-03-02 in Amsterdam, Netherlands by FP AMS: &lt;a href="https://www.meetup.com/fp-ams/events/258492088/">Talks &amp;amp; Drinks with John de Goes&lt;/a>&lt;/li>
+&lt;li>2019-03-04 in București, Romania by Bucharest FP: &lt;a href="https://www.meetup.com/bucharestfp/events/259325521/">Bucharest FP #44 — Haskell Book Study Group 05&lt;/a>&lt;/li>
+&lt;li>2019-03-04 in Delft, Netherlands by Delft Haskell Study Group: &lt;a href="https://www.meetup.com/Delft-Haskell-Study-Group/events/259291636/">Haskell Study Session #2&lt;/a>&lt;/li>
+&lt;li>2019-03-06 in Berlin, Germany by Berlin Haskell Users Group: &lt;a href="https://www.meetup.com/berlinhug/events/pvpwqpyzfbjb/">Haskell Wednesday&lt;/a>&lt;/li>
+&lt;li>2019-03-06 in Amsterdam, Netherlands by FP AMS: &lt;a href="https://www.meetup.com/fp-ams/events/258696139/">Category theory study group: Yoneda Embedding&lt;/a>&lt;/li>
+&lt;li>2019-03-06 in Berlin, Germany by Friendly Functional Programming Meetup Berlin: &lt;a href="https://www.meetup.com/Friendly-Functional-Programming-Meetup-Berlin/events/wtnkmqyzfbjb/">Friendly Functional Programming&lt;/a>&lt;/li>
+&lt;li>2019-03-06 in Brighton, United Kingdom by Functional Brighton: &lt;a href="https://www.meetup.com/Functional-Brighton/events/258704210/">Double bill: tagless final, monad transformers&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Asia&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-28 in Tōkyō-to, Japan by Tokyo Scala Developers: &lt;a href="https://www.meetup.com/Tokyo-Scala-Developers/events/258586177/">Types, Scala &amp;amp; Haskell!&lt;/a>&lt;/li>
+&lt;li>2019-03-04 in Hong Kong Island, Hong Kong by Hong Kong Functional Programming: &lt;a href="https://www.meetup.com/HK-Functional-programming/events/259326860/">Come and meet the IOHK Rust team!&lt;/a>&lt;/li>
+&lt;li>2019-03-06 in Singapore, Singapore by HASKELL.SG: &lt;a href="https://www.meetup.com/HASKELL-SG/events/258491197/">March Singapore Haskell Meetup&lt;/a>&lt;/li>
+&lt;li>2019-03-06 in Singapore, Singapore by University of Glasgow: &lt;a href="https://www.facebook.com/UoGSingapore/photos/a.368638043207103/2523953804342172/">Functional Programming Day 2019&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Oceania&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-28 in Melbourne, Australia by Melbourne Haskell Users Group: &lt;a href="https://www.meetup.com/Melbourne-Haskell-Users-Group/events/qfptslyzdblc/">Melbourne Haskell Users Group Meetup&lt;/a>&lt;/li>
+&lt;/ul>
+</content>
+</entry>
+<entry>
+  <id>https://haskellweekly.news/issues/147.html</id>
+  <title>Issue 147</title>
+  <updated>2019-02-21T00:00:00Z</updated>
+  <link href="https://haskellweekly.news/issues/147.html" />
+  <content type="html">&lt;p>Welcome to another issue of Haskell Weekly!
+&lt;a href="https://www.haskell.org">Haskell&lt;/a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://simplicial.io/2019/02/18/pure-function-no-funny-business/">A pure function does no funny business&lt;/a> by Joseph Abrahamson&lt;/p>
+&lt;blockquote>
+&lt;p>Before we can talk about the tradeoffs of using pure functional style, we need to understand it. What does it mean for a function to be pure anyway?&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://winterland.me/2019/02/17/stdio-A-simple-and-high-performance-IO%20toolkit-for-Haskell/">stdio - A simple and high-performance IO toolkit for Haskell&lt;/a> by Han Dong Zhu&lt;/p>
+&lt;blockquote>
+&lt;p>Yesterday I and my friend Tao He write a short release message at a local cafe, we released a new IO library for GHC based on our previous work on combining libuv and GHC.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://badcode.rocks/2019/049/january-teardown-bowling/">January Teardown: Bowling&lt;/a> by Stephen Paul Weber&lt;/p>
+&lt;blockquote>
+&lt;p>It’s time to announce the winner for January’s challenge and do some teardown! A lot of what makes this code bad is not being idiomatic for the language or problem, starting even with basic syntax choices.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://medium.com/permutive/towards-a-better-api-for-i-o-35d385060a5c">Towards a better API for I/O&lt;/a> by Tim Spence&lt;/p>
+&lt;blockquote>
+&lt;p>In this post we’ll skip over some of the more complex implementation details and focus more on the core design of iteratees and the reasoning behind the types Oleg defines.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://reasonablypolymorphic.com/blog/too-fast-too-free/">Freer Monads: Too Fast, Too Free&lt;/a> by Sandy Maguire&lt;/p>
+&lt;blockquote>
+&lt;p>So without further ado, I’d like to share my work-in-progress with you, tentatively named too-fast-too-free. This is ready for prime-time, but I’d prefer to merge it to someone upstream rather than pollute hackage with yet another free(r) monad extensible effects package.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://medium.com/barely-functional/freer-doesnt-come-for-free-c9fade793501">Freer doesn’t come for free&lt;/a> by Eric Torreborre&lt;/p>
+&lt;blockquote>
+&lt;p>After being involved with 2 large applications (both in Scala and Haskell) using a “Freer monad” I would not recommend this anymore. Why is that?&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://jmtd.net/log/haskell_asciidoc/">Embedding Haskell in AsciiDoc&lt;/a> by Jonathan Dowland&lt;/p>
+&lt;blockquote>
+&lt;p>For various convoluted reasons I wanted to embed Haskell into an AsciiDoc-formatted document and I couldn’t use Bird-style literate Haskell, which would be my preference.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://kowainik.github.io/posts/2019-02-06-style-guide">Haskell Style Guide&lt;/a> by Kowainik&lt;/p>
+&lt;blockquote>
+&lt;p>The purpose of this document is to help developers and people working on Haskell code-bases to have a smoother experience while dealing with code in different situations.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://monadfix.io/shower/">Shower&lt;/a> by Monadfix&lt;/p>
+&lt;blockquote>
+&lt;p>A tool for pretty-printing Haskell data types, even ones with broken &lt;code>Show&lt;/code> instances (like &lt;code>UTCTime&lt;/code>, &lt;code>UUID&lt;/code>, and various hash types).&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://cvlad.info/quantifiers/">Quantifiers in Agda&lt;/a> by Vladimir Ciobanu&lt;/p>
+&lt;blockquote>
+&lt;p>This post will go a bit further than that and show the type theoretic equivalents of existential and universal quantifiers. I’ll then explore some interesting properties of these types.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.linkedin.com/jobs/view/1104480045/">Software engineer at ITProTV in Gainesville&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>ITProTV is disrupting the eLearning world with engaging online training that people actually want to watch. We are currently accepting applications for full-stack software professionals to join our small but talented multidisciplinary team.&lt;/p>
+&lt;/blockquote>
+&lt;p>Taylor Fausak, the editor of Haskell Weekly, is the lead engineer at ITProTV.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://np.reddit.com/r/haskell/comments/as01d4/fp_complete_is_hiring_a_technical_communicator/">Technical communicator at FP Complete&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>We hear the same from people trying to adopt DevOps and the other quality engineering techniques we advocate: people don’t know what’s available, whether it’s usable on their own projects, or how to get help. So I’m creating a new job at FP Complete for an articulate developer to focus on outreach and communication.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://hub.no/jobs/company/folq">Haskell developer at Folq in Norway&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>We build a platform for matching consultants with customers without slow and expensive intermediates. We love statically typed functional programming, so our main technologies are Elm and Haskell. This enables us to move fast without breaking things.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://iohk.io/careers/#op-302245-ghc-web-backend-developer">GHC web backend developer at IOHK&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>We are looking for a talented Haskell compiler engineer to join our growing in-house team.  In this full time, remote work opportunity the candidate will be responsible for designing, implementing, and maintaining existing and emerging backends for the Glasgow Haskell Compiler (GHC) targeting Web platforms, such as JavaScript and WebAssembly.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://whatthefunctional.wordpress.com/2019/02/20/a-brief-introduction-to-the-%CE%BB-calculus-part-1/">A Brief Introduction to the λ-Calculus (Part 1)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mpickering.github.io/posts/2019-02-14-stage-3.html">A three-stage program you definitely want to write&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.philipzucker.com/a-touch-of-topological-computation-3-categorical-interlude/">A Touch of Topological Quantum Computation 3: Categorical Interlude&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://haskell-works.github.io/posts/2019-02-22-adding-bit-vectors-branchless-comparisons.html">Adding bit vectors - Branchless Comparisons&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://typeclasses.com/news/2019-02-align-these-and-http-headers">Align, These, and HTTP headers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://codurance.com/2019/02/21/bank-kata-in-haskell-printing/">Bank kata in Haskell - printing a statement&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://2mol.github.io/posts/replit-haskell/">Build Haskell stuff in your browser&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.composeconference.org/2019/cfp/">C◦mp◦se NYC 2019 CFP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://icfp19.sigplan.org/home/haskellsymp-2019#Call-for-Papers">Haskell Symposium 2019 CFP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://henningtonko.github.io/Pirate-Roguelike-1/">Pirate Roguelike Dev Log #1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://neilmitchell.blogspot.com/2019/02/quadratic-deriving-generic-compile-times.html">Quadratic &lt;code>deriving Generic&lt;/code> Compile Times&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.snoyman.com/blog/2019/02/shutting-down-haskell-lang">Shutting down haskell-lang.org&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mmhaskell.com/blog/2019/2/18/my-ide-setup">Upgrading My Development Setup!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://byorgey.wordpress.com/2019/02/16/worstsort/">Worstsort&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://hackage.haskell.org/package/symbols-0.2.0.1">&lt;code>symbols&lt;/code>&lt;/a>,
+a library that provides utilities for manipulating type-level strings.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/LambdaHack/LambdaHack/issues/160">LambdaHack: Un-hard-wire various constants, e.g., the healing speed when sleeping&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/haskell-servant/servant/issues/1129">servant: Split ClientSpec&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;h3>North America&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-20 in Austin, TX, USA by Austin Haskell Users Group: &lt;a href="https://www.meetup.com/ATX-Haskell/events/brldppyzdbbc/">Haskell Beginner-Friendly Lab&lt;/a>&lt;/li>
+&lt;li>2019-02-20 in Houston, TX, USA by Houston Functional Programmers: &lt;a href="https://www.meetup.com/Houston-Functional-Programmers/events/znbbqqyzdbbc/">Office Hours&lt;/a>&lt;/li>
+&lt;li>2019-02-21 in Las Vegas, NV, USA by Las Vegas Functional Programming User Group: &lt;a href="https://www.meetup.com/las-vegas-functional-programming/events/jkznkqyzdbcc/">Functional Programming Meetup&lt;/a>&lt;/li>
+&lt;li>2019-02-21 in Raleigh, NC, USA by Raleigh Haskell Meetup: &lt;a href="https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzdbcc/">(hack . yack)&lt;/a>&lt;/li>
+&lt;li>2019-02-21 in San Diego, CA, USA by San Diego Functional Programmers: &lt;a href="https://www.meetup.com/San-Diego-Functional-Programmers/events/258627177/">February Meetup - Lambda Calculus&lt;/a>&lt;/li>
+&lt;li>2019-02-22 in Austin, TX, USA by Austin Types, Theorems, and Programming Languages: &lt;a href="https://www.meetup.com/Austin-Types-Theorems-and-Programming-Languages/events/jfkqlnyzdbdc/">Going through Software Foundations by Benjamin Pierce et al&lt;/a>&lt;/li>
+&lt;li>2019-02-23 in Berkeley, CA by Code Self Study: &lt;a href="https://www.meetup.com/codeselfstudy/events/dkwpzpyzdbfc/">Open Programming Session (Saturday Afternoon)&lt;/a>&lt;/li>
+&lt;li>2019-02-23 in Boston, MA, USA by Weekly Functional Programming Meetup: &lt;a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/vdlnqpyzdbfc/">Hang out + short talk (Dependently Typed Lists by Jinxuan Zhu)&lt;/a>&lt;/li>
+&lt;li>2019-02-23 in San Diego, CA, USA by San Diego Software Development Deep Dive: &lt;a href="https://www.meetup.com/San-Diego-Software-Development-Deep-Dive/events/mtzbkqyzdbfc/">Diving deeper into software development discussions &lt;/a>&lt;/li>
+&lt;li>2019-02-25 in Irvine, CA by Orange Combinator - Functional Programming In OC: &lt;a href="https://www.meetup.com/orange-combinator/events/lxvjrpyzdbhc/">Combinating - The Weekly Function&lt;/a>&lt;/li>
+&lt;li>2019-02-26 in San Francisco, CA, USA by Industrial and Applied Haskell: &lt;a href="https://www.meetup.com/Industrial-Haskell/events/258890049/">Applied Haskell talks at Formation&lt;/a>&lt;/li>
+&lt;li>2019-02-27 in Portland, OR, USA by Portland Functional Programming Study Group: &lt;a href="https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/mpwwbqyzdbkc/">PDX Func Theory Track - Logic and Proof&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Europe&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-23 in Berlin, Germany by Study Haskell: &lt;a href="https://www.meetup.com/Study-Haskell/events/gwtsqqyzdbfc/">Weekly Haskell-studying session&lt;/a>&lt;/li>
+&lt;li>2019-02-25 in Delft, Netherlands by Delft Haskell Study Group: &lt;a href="https://www.meetup.com/Delft-Haskell-Study-Group/events/258356318/">Haskell Study Session #1&lt;/a>&lt;/li>
+&lt;li>2019-02-25 in Karlsruhe, Germany by Karlsruhe Haskell Meetup: &lt;a href="https://www.meetup.com/Karlsruhe-Haskell-Meetup/events/twnxpqyzdbhc/">Haskell Monday&lt;/a>&lt;/li>
+&lt;li>2019-02-25 in Katowice, Poland by Let’s DAZN IT! - Lovefield DB/Scaling frontend applications: &lt;a href="https://www.meetup.com/Lets-DAZN-IT-Lovefield-DB-Scaling-frontend-applications/events/258926742/">Let’s DAZN IT! -Lovefield DB/Scaling frontend applications with micro-frontends&lt;/a>&lt;/li>
+&lt;li>2019-02-25 in London EC2, United Kingdom by Skills Matter - X Matters Series - Developer Events: &lt;a href="https://www.meetup.com/skillsmatter/events/258526473/">Scala Matters with John De Goes!&lt;/a>&lt;/li>
+&lt;li>2019-02-26 in Copenhagen, Denmark by Mødegruppe for F#unktionelle Københavnere: &lt;a href="https://www.meetup.com/MoedegruppeFunktionelleKoebenhavnere/events/rqbcdlyzdbjc/">[Oskar Wickström]: Property-Based Testing The Ugly Parts&lt;/a>&lt;/li>
+&lt;li>2019-02-26 in London EC2, United Kingdom by Skills Matter - X Matters Series - Developer Events: &lt;a href="https://www.meetup.com/skillsmatter/events/258462643/">Diversity Matters with Bill  Liao!&lt;/a>&lt;/li>
+&lt;li>2019-02-27 in Leipzig, Germany by Funktionaler Stammtisch Leipzig: &lt;a href="https://www.meetup.com/Funktionaler-Stammtisch-Leipzig/events/zhzkrqyzdbkc/">Erstes Treffen “Funktionaler Stammtisch” (Clojure, Elm, Haskell, Scala …&lt;/a>&lt;/li>
+&lt;li>2019-02-27 in Leuven, Belgium by Belgian Scala User Group: &lt;a href="https://www.meetup.com/BeScala/events/258670176/">Meet Akka gRPC&lt;/a>&lt;/li>
+&lt;li>2019-02-27 in Lille, France by Lille FP: &lt;a href="https://www.meetup.com/Lille-FP/events/258682124/">LilleFP 12 : le tant attendu Haskell s’invite à LilleFP !&lt;/a>&lt;/li>
+&lt;li>2019-02-27 in Pula, Croatia by Pula Programming Languages Meetup: &lt;a href="https://www.meetup.com/Pula-Programming-Languages-Meetup/events/258760069/">Haskell - programski jezik budućnosti?&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Asia&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-24 in Bengaluru, India by Bangalore Functional Programmers Meetup: &lt;a href="https://www.meetup.com/Bangalore-Functional-Programmers-Meetup/events/257190891/">Functional Data Structures&lt;/a>&lt;/li>
+&lt;li>2019-02-27 in Delhi, India by DelhiNCR Haskell And Functional Programming Languages Group: &lt;a href="https://www.meetup.com/DelhiNCR-Haskell-And-Functional-Programming-Languages-Group/events/vkxwbqyzdbkc/">FPNCR Unscripted Online meetup&lt;/a>&lt;/li>
+&lt;li>2019-02-27 in Delhi, India by Reactive Application Programmers in Delhi NCR: &lt;a href="https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/258920814/">WEBINAR | Container Networking&lt;/a>&lt;/li>
+&lt;li>2019-02-27 in Hong Kong Island, Hong Kong by Hong Kong Functional Programming: &lt;a href="https://www.meetup.com/HK-Functional-programming/events/258959582/">Data Efficiency on the Erlang BEAM&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>South America&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-27 in Quito, Ecuador by Quito Lambda: &lt;a href="https://www.meetup.com/Quito-Lambda-Meetup/events/mscxlpyzdbkc/">Python con un toque funcional&lt;/a>&lt;/li>
+&lt;/ul>
+</content>
+</entry>
+<entry>
+  <id>https://haskellweekly.news/issues/146.html</id>
+  <title>Issue 146</title>
+  <updated>2019-02-14T00:00:00Z</updated>
+  <link href="https://haskellweekly.news/issues/146.html" />
+  <content type="html">&lt;p>Welcome to another issue of Haskell Weekly!
+&lt;a href="https://www.haskell.org">Haskell&lt;/a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://dimjasevic.net/marko/2019/02/09/isomorphism-and-embedding/">Isomorphism and Embedding&lt;/a> by Marko Dimjašević&lt;/p>
+&lt;blockquote>
+&lt;p>To me as a programmer, to write mathematical proofs that are mechanically checked by a computer feels empowering. To have these proofs as executable programs feels even more empowering. Therefore, our proofs have a computational aspect and vice-versa: our programs have a logical aspect.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://codurance.com/2019/02/11/bank-kata-in-haskell-state/">Bank kata in Haskell - dealing with state&lt;/a> by Liam Griffin&lt;/p>
+&lt;blockquote>
+&lt;p>In functional programming, you cannot encapsulate state or you lose it. Anything that is not returned from a function is lost. So, how do we deal with storing them?&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://reasonablypolymorphic.com/blog/freer-monads/">Freer Monads, More Better Programs&lt;/a> by Sandy Maguire&lt;/p>
+&lt;blockquote>
+&lt;p>As best I can tell, the community roughly fragments itself along four lines — those who like &lt;code>mtl&lt;/code>, those who say “just do everything in &lt;code>Reader&lt;/code> &lt;code>IO&lt;/code>”, those who like the three layer cake, and those who think free(r) monads are worth their weight in gold.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.haskellforall.com/2019/02/haskell-command-line-utility-using-ghc.html">Haskell command-line utility using GHC generics&lt;/a> by Gabriel Gonzalez&lt;/p>
+&lt;blockquote>
+&lt;p>My aim is to convince you that this Haskell feature improves code clarity without increasing the difficulty. If anything, I consider this version less difficult both to read and write.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://mmhaskell.com/blog/2019/2/11/haskell-data-types-review">Haskell Data Types Review!&lt;/a> by Monday Morning Haskell&lt;/p>
+&lt;blockquote>
+&lt;p>This week we’re taking a quick break from new content. We’ve added our new series on Haskell’s data system to our permanent collection.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://lin-techdet.blogspot.com/2019/02/masking-async-tasks-in-wild.html">Masking async tasks in the wild&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>A new task gets spawned synchronously from a C code and immediately returns a handle: an object of type &lt;code>Async ()&lt;/code> wrapped inside a &lt;code>StablePtr&lt;/code>. The spawned thread is not waited from anywhere, thus being run in the wild.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.fpcomplete.com/blog/randomization-testing-for-an-sql-translator">Randomization Testing for an SQL Translator&lt;/a> by Alexey Kuleshevich&lt;/p>
+&lt;blockquote>
+&lt;p>Not all SQLs are created equal. I’ll say even more, none of the SQL dialects are even close to being equal. In particular, when talking about Microsoft SQL Server and PostgreSQL, their syntax might look similar. However, in their semantics, they are mountains apart.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://vaibhavsagar.com/blog/2019/02/12/refactoring-haskell/index.html">Refactoring Haskell: A Case Study&lt;/a> by Vaibhav Sagar&lt;/p>
+&lt;blockquote>
+&lt;p>Many people claim that refactoring Haskell is a joy. I’ve certainly found this to be the case, but what does that mean in practice? I thought it might be useful to demonstrate by refactoring some of my own code.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://magnus.therning.org/posts/2019-02-02-000-the-readert-design-pattern-or-tagless-final-.html">The ReaderT design pattern or tagless final?&lt;/a> by Magnus Therning&lt;/p>
+&lt;blockquote>
+&lt;p>The other week I read V. Kevroletin’s &lt;em>Introduction to Tagless Final&lt;/em> and realised that a couple of my projects, both at work and at home, would benefit from a refactoring to that approach.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.tweag.io/posts/2019-02-13-types-got-you.html">The types got you&lt;/a> by Mark Karpov&lt;/p>
+&lt;blockquote>
+&lt;p>As the GHC compiler evolves and grows its feature set, one couldn’t help but wonder about the connection between power provided by a programming language and the process of making design decisions when developing software.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.anduril.com/">Anduril Industires is Hiring in Orange County&lt;/a>
+&lt;blockquote>
+&lt;p>Come write Haskell, Rust, and Nix (and some C++ when necessary) to make autonomous robots and drones go! If you
+like FP, interfacing with hardware, and solving problems in detection, tracking, and autonomous vehicle control,
+send a note to &lt;a href="mailto:travis@anduril.com">travis@anduril.com&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://johncarlosbaez.wordpress.com/2019/02/07/applied-category-theory-2019-2/">Applied Category Theory 2019&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.snoyman.com/blog/2019/02/call-for-new-issue-triager">Call for new Stack issue triager&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cs-syd.eu/posts/2019-02-14-cursors-textfield">Cursors, Part 4: The Textfield cursor&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://np.reddit.com/r/haskell/comments/apavqf/experiment_ghc_bug_bounty/">Experiment: ghc bug bounty&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://byorgey.wordpress.com/2019/02/13/finding-roots-of-polynomials-in-haskell/">Finding roots of polynomials in Haskell?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://andreaspk.github.io/posts/2019-02-10-Fixing%20the%20the%20graph%20register%20allocator.html">Fixing GHC’s graph register allocator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pbrisbin.com/posts/googleemail2_deprecation/">GoogleEmail2 Deprecation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kazu-yamamoto.hatenablog.jp/entry/2019/02/08/162027">Haskell network library version 3.0&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://plugins.jetbrains.com/plugin/8258-intellij-haskell">IntelliJ-Haskell 1.0.0-beta44&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://slack.com/apps/ABZ6Y0XM4-lambdabot">Lambdabot | Slack App Directory&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.rcook.org/blog/2019/01-oset-0.4.0.1/">oset-0.4.0.1 released&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.rcook.org/blog/2019/02-sexpr-parser-0.1.1.2/">sexpr-parser-0.1.1.2 released&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://typeclasses.com/news/2019-02-deriving-via">Type Classes: Deriving&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://github.com/hadolint/hadolint/tree/475ad73d333dee3d68410ceafb2a936ff2a79ba8">Hadolint&lt;/a>,
+a smarter Dockerfile linter that helps you build best practice Docker images.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/ivanperez-keera/dunai/issues/133">dunai: Doc: Link to Rhine paper and Rhine project from Readme&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;h3>North America&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-14 in Raleigh, NC, USA by Raleigh Haskell Meetup: &lt;a href="https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzdbsb/">(hack . yack)&lt;/a>&lt;/li>
+&lt;li>2019-02-16 in Bellevue, WA, USA by Seattle Area Haskell Users’ Group: &lt;a href="https://www.meetup.com/SEAHUG/events/htlvcpyzdbvb/">General discussion&lt;/a>&lt;/li>
+&lt;li>2019-02-16 in Boston, MA, USA by Weekly Functional Programming Meetup: &lt;a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/vdlnqpyzdbvb/">Hang out, chat FP, work on some code&lt;/a>&lt;/li>
+&lt;li>2019-02-16 in Berkeley, CA by Code Self Study: &lt;a href="https://www.meetup.com/codeselfstudy/events/dkwpzpyzdbvb/">Open Programming Session (Saturday Afternoon)&lt;/a>&lt;/li>
+&lt;li>2019-02-18 in Portland, OR, USA by Portland Functional Programming Study Group: &lt;a href="https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/qjbbjqyzdbxb/">PDX Func Practice Track - Parallel and Concurrent Programming in Haskell&lt;/a>&lt;/li>
+&lt;li>2019-02-18 in Irvine, CA by Orange Combinator - Functional Programming In OC: &lt;a href="https://www.meetup.com/orange-combinator/events/lxvjrpyzdbxb/">Combinating - The Weekly Function&lt;/a>&lt;/li>
+&lt;li>2019-02-18 in Lehi, UT, USA by Utah Haskell: &lt;a href="https://www.meetup.com/utah-haskell/events/fmdsrqyzdbxb/">Utah Haskell Meetup | Book Club&lt;/a>&lt;/li>
+&lt;li>2019-02-19 in Minneapolis, USA by HaskellMN: &lt;a href="https://www.meetup.com/HaskellMN/events/ndtxfpyzdbzb/">HaskellMN Monthly Meetup&lt;/a>&lt;/li>
+&lt;li>2019-02-19 in Carmel, USA by Indy FP: &lt;a href="https://www.meetup.com/Indy-FP/events/258128927/">Show and Tell: Coding exercise in many languages&lt;/a>&lt;/li>
+&lt;li>2019-02-20 in Berkeley, CA by Code Self Study: &lt;a href="https://www.meetup.com/codeselfstudy/events/tzgvnqyzdbbc/">Open Programming Session (Wednesday, Berkeley)&lt;/a>&lt;/li>
+&lt;li>2019-02-20 in Houston, TX, USA by Houston Functional Programmers: &lt;a href="https://www.meetup.com/Houston-Functional-Programmers/events/znbbqqyzdbbc/">Office Hours&lt;/a>&lt;/li>
+&lt;li>2019-02-20 in Austin, TX, USA by Austin Haskell Users Group: &lt;a href="https://www.meetup.com/ATX-Haskell/events/brldppyzdbbc/">Haskell Beginner-Friendly Lab&lt;/a>&lt;/li>
+&lt;li>2019-02-20 in Portland, OR, USA by Portland Elixir &amp;amp; Erlang User Group: &lt;a href="https://www.meetup.com/Portland-Erlang-Elixir-User-Group/events/twrgnqyzdbbc/">Monthly Meeting - Elixir Monitoring Tools: Observer, New Relic, Telemetry &amp;amp; more&lt;/a>&lt;/li>
+&lt;li>2019-02-21 in Tucson, AZ, USA by Tucson Functional Programmers: &lt;a href="https://www.meetup.com/Tucson-Functional-Programmers/events/258744172/">Technical Talk - Nix: the purely functional package manager&lt;/a>&lt;/li>
+&lt;li>2019-02-21 in Austin, TX, USA by Austin.Elm: &lt;a href="https://www.meetup.com/Austin-Elm/events/258506235/">It’s BACK!! Elm Hack Night at Lunar Collective&lt;/a>&lt;/li>
+&lt;li>2019-02-21 in San Diego, CA, USA by San Diego Functional Programmers: &lt;a href="https://www.meetup.com/San-Diego-Functional-Programmers/events/258627177/">February Meetup - Lambda Calculus&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Europe&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-14 in London, United Kingdom by Hoodlums: &lt;a href="https://www.meetup.com/hoodlums/events/hrbdtnyzdbsb/">Hoodlums Meetup&lt;/a>&lt;/li>
+&lt;li>2019-02-16 in Berlin, Germany by Study Haskell: &lt;a href="https://www.meetup.com/Study-Haskell/events/gwtsqqyzdbvb/">Weekly Haskell-studying session&lt;/a>&lt;/li>
+&lt;li>2019-02-18 in Bucharest, Romania by Bucharest FP: &lt;a href="https://www.meetup.com/bucharestfp/events/258696187/">Bucharest FP #40 — Recursion Schemes in Haskell&lt;/a>&lt;/li>
+&lt;li>2019-02-18 in London EC2, United Kingdom by Skills Matter - X Matters Series - Developer Events: &lt;a href="https://www.meetup.com/skillsmatter/events/258323591/">Data Matters with Chanuki Illushka Seresinhe!&lt;/a>&lt;/li>
+&lt;li>2019-02-19 in Bristol, United Kingdom by CodeHub Bristol: &lt;a href="https://www.meetup.com/CodeHub-Bristol/events/bpjgrqyzdbzb/">Hack Night&lt;/a>&lt;/li>
+&lt;li>2019-02-19 in London EC2, United Kingdom by Skills Matter - X Matters Series - Developer Events: &lt;a href="https://www.meetup.com/skillsmatter/events/258494361/">Leadership Matters with Elizabeth Varley!&lt;/a>&lt;/li>
+&lt;li>2019-02-19 in Helsingfors, Finland by Helsinki Haskell Users Group: &lt;a href="https://www.meetup.com/Helsinki-Haskell-Users-Group/events/257983250/">RELEX Haskell Meetup&lt;/a>&lt;/li>
+&lt;li>2019-02-19 in Poznań, Poland by Poznań Java User Group: &lt;a href="https://www.meetup.com/Poznan-Java-User-Group/events/258865119/">Spotkanie Poznań JUG: Serverless, Haskell!&lt;/a>&lt;/li>
+&lt;li>2019-02-20 in Leeds, United Kingdom by Code &amp;amp; Coffee (Leeds): &lt;a href="https://www.meetup.com/Code-Coffee-Leeds/events/lbrrtlyzdbbc/">Code &amp;amp; Coffee&lt;/a>&lt;/li>
+&lt;li>2019-02-20 in Berlin, Germany by Berlin Haskell Users Group: &lt;a href="https://www.meetup.com/berlinhug/events/pvpwqpyzdbbc/">Haskell Wednesday&lt;/a>&lt;/li>
+&lt;li>2019-02-20 in London EC2, United Kingdom by Skills Matter - X Matters Series - Developer Events: &lt;a href="https://www.meetup.com/skillsmatter/events/258463958/">Ops Matters with Yan Cui!&lt;/a>&lt;/li>
+&lt;li>2019-02-20 in Stockholm, Sweden by Haskell Stockholm: &lt;a href="https://www.meetup.com/Haskell-Stockholm/events/258376342/">Workshop: Domain modelling with Haskell&lt;/a>&lt;/li>
+&lt;li>2019-02-20 in London, United Kingdom by London Haskell: &lt;a href="https://www.meetup.com/London-Haskell/events/258701758/">@brant they’re good DAGs Brent&lt;/a>&lt;/li>
+&lt;li>2019-02-20 in Wroclaw, Poland by Functional Programming Wroclaw: &lt;a href="https://www.meetup.com/Functional-Programming-Wroclaw/events/258449272/">fp-wroc #24 Czego potrzebujesz by zbudować swój własny DSL w Scali&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Africa&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-16 in Nairobi, Kenya by Nairobi JVM: &lt;a href="https://www.meetup.com/nairobi-jvm/events/258489469/">Building Scalable Data Pipelines with Kafka and Apache Spark&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Oceania&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-18 in Perth, Australia by Perth Functional Programmers: &lt;a href="https://www.meetup.com/PerthFP/events/xrtkqqyzdbxb/">Haskell meetup&lt;/a>&lt;/li>
+&lt;/ul>
+</content>
+</entry>
+<entry>
+  <id>https://haskellweekly.news/issues/145.html</id>
+  <title>Issue 145</title>
+  <updated>2019-02-07T00:00:00Z</updated>
+  <link href="https://haskellweekly.news/issues/145.html" />
+  <content type="html">&lt;p>Welcome to another issue of Haskell Weekly!
+&lt;a href="https://www.haskell.org">Haskell&lt;/a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://cvlad.info/curry-howard/">Curry-Howard Correspondence Example&lt;/a> by Vladimir Ciobanu&lt;/p>
+&lt;blockquote>
+&lt;p>This post will show how a simple proof works in Logic, Type Theory, and Category Theory: given &lt;code>A ∧ (B ∧ C)&lt;/code>, prove &lt;code>(A ∧ B) ∧ C&lt;/code>.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://neilmitchell.blogspot.com/2019/02/announcing-ghc-lib.html">Announcing &lt;code>ghc-lib&lt;/code>&lt;/a> by Neil Mitchell&lt;/p>
+&lt;blockquote>
+&lt;p>On behalf of Digital Asset I’m delighted to announce &lt;code>ghc-lib&lt;/code>, a repackaging of the GHC API to allow it to be used on different GHC versions. The GHC API allows you use the GHC compiler as a library, so you can parse, analyze and compile Haskell code.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://coot.me/posts/categories-with-monadic-effects.html">Categories with Monadic Effects and State Machines&lt;/a> by Marcin Szamotulski&lt;/p>
+&lt;blockquote>
+&lt;p>In this posts we will present categories which can run monadic actions, which we call categories with monadic effects (abr. &lt;code>EffCategories&lt;/code>). It turns out that one can build them in an abstract way, much the same way as free monads, and use them to specify state machines in a succinct and type-safe manner.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://medium.com/@cdsmithus/codeworld-update-february-2019-450902b1cd4e">CodeWorld Update — February, 2019&lt;/a> by Chris Smith&lt;/p>
+&lt;blockquote>
+&lt;p>I’ve been quiet on social media lately, but it’s been an active time for the CodeWorld project. Here’s a brief summary of some of the things happening in the last few months.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://andreaspk.github.io/posts/2019-02-01-nub-benchmarks.html">Comparing nub implementations&lt;/a> by Andreas Klebinger&lt;/p>
+&lt;blockquote>
+&lt;p>This post was inspired by this medium blog post and the following discussion on reddit. There was a lot of discussion about big O performance. But zero numbers, which was sad so here we go.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://taylor.fausak.me/2019/02/03/haskell-weekly-in-2018/">Haskell Weekly in 2018&lt;/a> by Taylor Fausak&lt;/p>
+&lt;blockquote>
+&lt;p>At the end of each year I reflect on how things went. Here’s a look at Haskell Weekly in 2018, including popular links, the state of Haskell survey, and subscriber statistics.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://medium.com/permutive/having-your-cake-and-eating-it-9f462bf3f908">Having your cake and eating it&lt;/a> by Tim Spence&lt;/p>
+&lt;blockquote>
+&lt;p>At Permutive, we’re committed to functional programming. That typically means also committing to immutable data structures (a very good thing!), but there are times when an algorithm would run much faster or be more space efficient if it could update state in-place.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://mpickering.github.io/posts/2019-01-31-nested-brackets.html">Implementing Nested Quotations&lt;/a> by Matthew Pickering&lt;/p>
+&lt;blockquote>
+&lt;p>The purpose of this post is to explain how to implemented nested quotations. From our previous example, quoting a term &lt;code>e&lt;/code>, gives us a term which represents &lt;code>e&lt;/code>. It follows that we should be allowed to nest quotations so that quoting a quotation gives us a representation of that quotation.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.parsonsmatt.org/2019/01/31/esqueleto_union_i.html">Implementing Union in Esqueleto I&lt;/a> by Matt Parsons&lt;/p>
+&lt;blockquote>
+&lt;p>We use the SQL &lt;code>UNION&lt;/code> operator at IOHK in one of our &lt;code>beam&lt;/code> queries, and &lt;code>esqueleto&lt;/code> does not support it. To make porting the IOHK SQL code more straightforward, I decided to implement UNION. This blog post series will delve into implementing this feature, in a somewhat stream-of-thought manner.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://ryanglscott.github.io/2019/02/06/proxy-arguments-in-class-methods/">Proxy arguments in class methods: a comparative analysis&lt;/a> by Ryan Scott&lt;/p>
+&lt;blockquote>
+&lt;p>I’ve often wondered if there is one design to rule them all, so I wrote up this blog post in an attempt to better understand the pros and cons of each approach. Will we discover which design is unambiguously the best one by the end?&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://interos.applicantpro.com/jobs/986650-306376.html">Senior Software Engineer at Interos in Arlington&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://intelligence.org/get-involved/#careers">Software Engineer at MIRI in Berkeley&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.rcook.org/blog/2019/02-newtype-wrappers/">Alternative &lt;code>newtype&lt;/code> wrappers for &lt;code>oset&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/tweag/asterius/tree/43b66625330ce1d96797fe7bee045c9c3165b9ec">Asterius: A Haskell to WebAssembly compiler&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://typeclasses.com/news/2019-02-finding-success-and-failure">Coupons for &lt;em>Finding Success&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/MaiaVictor/ESCoC/tree/fbd22beb7a55ebf685bdde33a7eef3105973168a">Expanded-Scope Calculus of Constructions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gitlab.com/spacekitteh/sc2hs/tree/377e5b3a52f8170f40afecbe8885ae454c302dd5#readme">Haskell bindings for the StarCraft II API&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/haskell/comments/alrm5v/monthly_hask_anything_february_2019/">Monthly Hask Anything (February 2019)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/haskell/comments/an2slo/open_sourcing_haskell_bazaar_explore_haskell_and/">Open Sourcing Haskell Bazaar&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.nyarlathotep.one/2019/02/paramorphisms-fusion-for-algebraic-graphs/">Paramorphisms fusion for algebraic graphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://k-bx.github.io/articles/drinker.html">Struggling With My Drinker’s Problem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mmhaskell.com/blog/2019/2/4/why-haskell-v-type-families">Why Haskell V: Type Families&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://hackage.haskell.org/package/libtelnet-0.1.0.0">libtelnet&lt;/a>,
+a wrapper around libtelnet, a C library for handling Telnet streams.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/purebred-mua/purebred/issues/251">purebred: tests: Timing sensitive issue with ‘manage tags on mails’ test&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/haskell-servant/servant/issues/1118">servant: Lenient combinator infers to “Either String”&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/commercialhaskell/stack/issues/4556">stack: Redirecting output of &lt;code>--exec&lt;/code> command&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;h3>North America&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-07 in Raleigh, NC, USA by Raleigh Haskell Meetup: &lt;a href="https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzdbkb/">(hack . yack)&lt;/a>&lt;/li>
+&lt;li>2019-02-07 in Charlotte, NC, USA by Queen City Lambda: &lt;a href="https://www.meetup.com/Queen-Lambda/events/257649879/">Functional Programming in F# - beyond an intro &lt;/a>&lt;/li>
+&lt;li>2019-02-08 in Austin, TX, USA by Austin Types, Theorems, and Programming Languages: &lt;a href="https://www.meetup.com/Austin-Types-Theorems-and-Programming-Languages/events/kbqknnyzdblb/">Going through Software Foundations by Benjamin Pierce et al&lt;/a>&lt;/li>
+&lt;li>2019-02-09 in Norcross, GA, USA by Atlambda Haskathon: &lt;a href="https://www.meetup.com/Atlambda-Haskathon/events/ggbspqyzdbmb/">Atlambda Haskathon&lt;/a>&lt;/li>
+&lt;li>2019-02-09 in San Diego, CA, USA by San Diego Software Development Deep Dive: &lt;a href="https://www.meetup.com/San-Diego-Software-Development-Deep-Dive/events/mtzbkqyzdbmb/">Diving deeper into software development discussions &lt;/a>&lt;/li>
+&lt;li>2019-02-09 in Boston, MA, USA by Weekly Functional Programming Meetup: &lt;a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/vdlnqpyzdbmb/">Hang out, chat FP, work on some code&lt;/a>&lt;/li>
+&lt;li>2019-02-09 in Berkeley, CA by Code Self Study: &lt;a href="https://www.meetup.com/codeselfstudy/events/dkwpzpyzdbmb/">Open Programming Session (Saturday Afternoon)&lt;/a>&lt;/li>
+&lt;li>2019-02-11 in Irvine, CA by Orange Combinator - Functional Programming In OC: &lt;a href="https://www.meetup.com/orange-combinator/events/lxvjrpyzdbpb/">Combinating - The Weekly Function&lt;/a>&lt;/li>
+&lt;li>2019-02-11 in Pittsburgh, PA, USA by Pittsburgh Functional Programming Meetup: &lt;a href="https://www.meetup.com/Pittsburgh-Functional-Programming-Meetup/events/gctsjlyzdbpb/">The Omega Language&lt;/a>&lt;/li>
+&lt;li>2019-02-11 in Suite 1305, IL, USA by Chicago Haskell: &lt;a href="https://www.meetup.com/Chicago-Haskell/events/258457767/">Intro to Haskell for JS hackers&lt;/a>&lt;/li>
+&lt;li>2019-02-12 in Vancouver, BC, Canada by Functional Programming Vancouver: &lt;a href="https://www.meetup.com/Functional-Programming-Vancouver/events/zjghlqyzdbqb/">Functional Programming Vancouver - sharing, learning and using FP in daily life!&lt;/a>&lt;/li>
+&lt;li>2019-02-12 in Kraków, AL, USA by typed.space: &lt;a href="https://www.meetup.com/typed-space/events/258561050/">Introduction to lenses in Haskell&lt;/a>&lt;/li>
+&lt;li>2019-02-13 in Portland, OR, USA by Portland Functional Programming Study Group: &lt;a href="https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/gwtbcpyzdbrb/">PDX Func Theory Track - Logic and Proof&lt;/a>&lt;/li>
+&lt;li>2019-02-13 in Toronto, ON, Canada by Toronto Haskell Meetup: &lt;a href="https://www.meetup.com/meetup-group-evRITRtT/events/258082340/">Haskell Meetup: Lightning Talks and Hack Night&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Europe&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-07 in Graz, Austria by Functional Programming Graz: &lt;a href="https://www.meetup.com/Functional-Programming-Graz/events/qbrnrlyzdbkb/">Functional Programming Meetup&lt;/a>&lt;/li>
+&lt;li>2019-02-07 in Madrid, Spain by Madrid Haskell Users Group: &lt;a href="https://www.meetup.com/Haskell-MAD/events/258033850/">Lentes para meros mortales&lt;/a>&lt;/li>
+&lt;li>2019-02-07 in Düsseldorf, Germany by Clojure Düsseldorf: &lt;a href="https://www.meetup.com/Clojure-Duesseldorf/events/258139096/">Clojure: Erste Schritte&lt;/a>&lt;/li>
+&lt;li>2019-02-09 in Berlin, Germany by Study Haskell: &lt;a href="https://www.meetup.com/Study-Haskell/events/gwtsqqyzdbmb/">Weekly Haskell-studying session&lt;/a>&lt;/li>
+&lt;li>2019-02-11 in Brno-střed, Czech Republic by Functional Programming Brno: &lt;a href="https://www.meetup.com/fpbrno/events/258090018/">Scala Exchange report &amp;amp; FP and Math talk&lt;/a>&lt;/li>
+&lt;li>2019-02-13 in Karlsruhe, Germany by The Karlsruhe Functional Programmers Meetup Group: &lt;a href="https://www.meetup.com/The-Karlsruhe-Functional-Programmers-Meetup-Group/events/256845601/">Advanced Futures and Promises in C++ (Vortrag von Tamino Dauth)&lt;/a>&lt;/li>
+&lt;li>2019-02-13 in Sofia, Bulgaria by Lambda Dojo Sofia: &lt;a href="https://www.meetup.com/Lambda-Dojo-Sofia/events/258264522/">Lambda Dojo February - Functional Coding&lt;/a>&lt;/li>
+&lt;li>2019-02-13 in Prague, Czech Republic by Prague Lambda Meetup: &lt;a href="https://www.meetup.com/Lambda-Meetup-Group/events/258696043/">Clojure Wednesday&lt;/a>&lt;/li>
+&lt;li>2019-02-13 in Budapest, Hungary by Budapest Haskell User Group: &lt;a href="https://www.meetup.com/Bp-HUG/events/257920419/">Haskell Book reading group (26th Ed.)&lt;/a>&lt;/li>
+&lt;li>2019-02-13 in cluj-napoca, Romania by Cluj.fp: &lt;a href="https://www.meetup.com/Cluj-fp/events/258724870/">Cofree Comonads&lt;/a>&lt;/li>
+&lt;li>2019-02-26 in Copenhagen, Denmark by Mødegruppe for F#unktionelle Københavnere: &lt;a href="https://www.meetup.com/MoedegruppeFunktionelleKoebenhavnere/events/rqbcdlyzdbjc/">“Property-Based Testing The Ugly Parts” by Oskar Wickström&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>South America&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-07 in Buenos Aires, Argentina by Buenos Aires Haskell Meetup: &lt;a href="https://www.meetup.com/Buenos-Aires-Haskell-Meetup/events/257540096/">Evaluando JavaScript con Haskell&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Africa&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-11 in Sandton, South Africa by Lambda Luminaries: &lt;a href="https://www.meetup.com/lambda-luminaries/events/rkdhnqyzdbpb/">Compiling assembly to Lisp (that sounds backwards)&lt;/a>&lt;/li>
+&lt;/ul>
+</content>
+</entry>
+<entry>
+  <id>https://haskellweekly.news/issues/144.html</id>
+  <title>Issue 144</title>
+  <updated>2019-01-31T00:00:00Z</updated>
+  <link href="https://haskellweekly.news/issues/144.html" />
+  <content type="html">&lt;p>Welcome to another issue of Haskell Weekly!
+&lt;a href="https://www.haskell.org">Haskell&lt;/a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.&lt;/p>
+&lt;h2>Featured&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://robertwpearce.com/hakyll-pt-4-copying-static-files-for-your-build.html">Hakyll Pt. 4 — Copying Static Files For Your Build&lt;/a> by Robert Pearce&lt;/p>
+&lt;blockquote>
+&lt;p>This short hakyll tutorial will show you a simple way to copy static files over to your build folder.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://memfrob.de/posts/announcing-floskell/">Announcing Floskell&lt;/a> by Enno Cramer&lt;/p>
+&lt;blockquote>
+&lt;p>Floskell is a new Haskell source code formatter. Floskell tries to be flexible, meaning that the user should be able to tune the output to match their personal style preference.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.fpcomplete.com/blog/defining-exceptions-in-haskell">Defining exceptions in Haskell&lt;/a> by Chris Done&lt;/p>
+&lt;blockquote>
+&lt;p>Let’s talk about exceptions. They’re not perfect in Haskell. They’re not perfect in any language, really. We’re always making adjustments to what we think is the best way to handle exceptional circumstances.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://dkwise.wordpress.com/2019/01/30/fractals-and-monads-part-2/">Fractals and Monads — Part 2&lt;/a> by Derek Wise&lt;/p>
+&lt;blockquote>
+&lt;p>Last time I discussed the power set monad and how it shows up in certain methods of building fractals. This time I’ll go a bit further, and also explain some Haskell code I actually use to generate fractal pictures.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://neilmitchell.blogspot.com/2019/01/hlint-unused-extension-hints.html">HLint Unused Extension Hints&lt;/a> by Neil Mitchell&lt;/p>
+&lt;blockquote>
+&lt;p>HLint has detected unused &lt;code>LANGUAGE&lt;/code> pragmas for a while - where you enable an extension (e.g. &lt;code>{-# LANGUAGE EmptyDataDecls #-}&lt;/code>) but don’t use it. HLint v2.1.13 includes some improvements from Yair and myself making these hints even more powerful.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://blog.jle.im/entry/tries-with-recursion-schemes.html">Visualizing Prequel Meme Prefix Tries with Recursion Schemes&lt;/a> by Justin Le&lt;/p>
+&lt;blockquote>
+&lt;p>Not too long ago, I was browsing the prequel memes subreddit when I noticed that a fad was in progress constructing tries based on quotes as keys indexing stills from the movie corresponding to those quotes.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Jobs&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://workforcenow.adp.com/jobs/apply/posting.html?client=galois&amp;amp;ccId=19000101_000001&amp;amp;type=MP&amp;amp;lang=en_US">Galois is Hiring!&lt;/a> (&lt;a href="https://haskellweekly.news/advertising.html">ad&lt;/a>)&lt;/p>
+&lt;blockquote>
+&lt;p>Galois is looking for Software Engineers/Researchers and Project Managers! We collaborate with organizations like NASA, DARPA, and Amazon Web Services to explore blue sky ideas and turn them into usable technology. Some of the things we’ve worked on in the past: Formal methods, static analysis, binary analysis, cryptographic algorithms, domain specific languages, programming languages theory, abstract interpretation, type theory, formal verification and software correctness, reinforcement learning, autonomous systems assurance, communication security, cyber-deception for network defense, DDoS defense, provable hardware security, statistical anomaly detection for detecting advanced persistent threats. We think working here is awesome (see &lt;a href="https://lifeatgalois.com">https://lifeatgalois.com&lt;/a>).&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://functional.works-hub.com/jobs/senior-haskell-engineer-london-united-kingdom-98704">Senior Haskell Engineer at Habito in London&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>We are looking for a full-time senior engineer to join our team of full-stack engineers. Our core development values are strong, static typing and correctness, rigorous automation and everyone having a say.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h2>In brief&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.tpflug.me/2019/01/28/about-busconf/">About BusConf&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.philipzucker.com/bidirectional-applicative-programming-and-automatic-differentation/">Applicative Bidirectional Programming and Automatic Differentiation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/begriffs/c-mix/tree/d509128d6d1a54d9c6a35b7baf8f52759ff42ad9">c-mix: Demo of C project with Haskell functions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hydraz.semi.works/posts/2019-01-28.html">Compositional Typing for ML&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/google/haskell-trainings/tree/a14f9f922b5cc46bc04b96203c688ddbe5ad1fc7">Haskell training: 101 and 102&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/seagreen/hermetic/tree/727381714c956a385c3968ea2a84ce9ecbf8c2d9">hermetic: Strategy game&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.snoyman.com/blog/2019/01/mismatched-global-packages">Mismatched global packages&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@maiavictor/towards-a-simple-theorem-prover-5005a1e66a6f">Towards a simple theorem prover&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mmhaskell.com/blog/2019/1/28/why-haskell-iv-typeclasses-vs-inheritance">Why Haskell IV: Typeclasses vs. Inheritance&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blogs.ncl.ac.uk/andreymokhov/you-should-try-hadrian/">You should try Hadrian&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Package of the week&lt;/h2>
+&lt;p>This week’s package of the week is &lt;a href="https://hackage.haskell.org/package/silently-1.2.5">Silently&lt;/a>,
+a library that allows you to prevent of capture writing to STDOUT and other handles.&lt;/p>
+&lt;h2>Call for participation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/jpvillaisaza/slack-web/issues/72">slack-web: Allow http-client 0.6&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/haskell/zlib/issues/9">zlib: no non-internal way to catch exception from decompress?&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Events&lt;/h2>
+&lt;h3>North America&lt;/h3>
+&lt;ul>
+&lt;li>2019-01-30 in Portland, OR, USA by Portland Functional Programming Study Group: &lt;a href="https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/mpwwbqyzcbfc/">PDX Func Theory Track - Logic and Proof&lt;/a>&lt;/li>
+&lt;li>2019-01-31 in Raleigh, NC, USA by Raleigh Haskell Meetup: &lt;a href="https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzcbpc/">(hack . yack)&lt;/a>&lt;/li>
+&lt;li>2019-01-31 in Chicago, IL, USA by The Project Euler Sprint: &lt;a href="https://www.meetup.com/Project-Euler-Sprint/events/ngwzxmyzcbpc/">Project Euler Sprint&lt;/a>&lt;/li>
+&lt;li>2019-02-02 in Berkeley, CA by Code Self Study: &lt;a href="https://www.meetup.com/codeselfstudy/events/dkwpzpyzdbdb/">Open Programming Session (Saturday Afternoon)&lt;/a>&lt;/li>
+&lt;li>2019-02-02 in Boston, MA, USA by Weekly Functional Programming Meetup: &lt;a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/vdlnqpyzdbdb/">Hang out, chat FP, work on some code&lt;/a>&lt;/li>
+&lt;li>2019-02-03 in Thousand Oaks, CA, USA by Monthly Full Moon World Healing Meditation Ceremony: &lt;a href="https://www.meetup.com/Full-Moon-World-Healing-Meditation-Ceremony/events/258086797/">Ceremonial Tribal Drum-Making Class&lt;/a>&lt;/li>
+&lt;li>2019-02-04 in Irvine, CA by Orange Combinator - Functional Programming In OC: &lt;a href="https://www.meetup.com/orange-combinator/events/lxvjrpyzdbgb/">Combinating - The Weekly Function&lt;/a>&lt;/li>
+&lt;li>2019-02-04 in Portland, OR, USA by Portland Functional Programming Study Group: &lt;a href="https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/rtfghqyzdbgb/">PDX Func Practice Track - Parallel and Concurrent Programming in Haskell&lt;/a>&lt;/li>
+&lt;li>2019-02-05 in Westlake, OH, USA by λ cleveland -&amp;gt; func: &lt;a href="https://www.meetup.com/%CE%BB-cleveland-func/events/ntkvqpyzdbhb/">Hack Night&lt;/a>&lt;/li>
+&lt;li>2019-02-05 in Madison, WI, USA by Haskallywags: &lt;a href="https://www.meetup.com/Haskallywags/events/258126764/">Monthly Meetup (Topic TBD)&lt;/a>&lt;/li>
+&lt;li>2019-02-05 in Santa Monica, CA, USA by Santa Monica Haskell Users Group: &lt;a href="https://www.meetup.com/santa-monica-haskell/events/258340965/">Haskell Hack Night&lt;/a>&lt;/li>
+&lt;li>2019-02-05 in Atlanta, GA, USA by Atlanta Functional Programming Meetup: &lt;a href="https://www.meetup.com/Atlanta-Functional-Programming-Meetup/events/258468374/">Introduction to Rust&lt;/a>&lt;/li>
+&lt;li>2019-02-06 in Berkeley, CA by East Bay Functional Programming Study Group: &lt;a href="https://www.meetup.com/eastbayfunctionalprogramming/events/wmzxpqyzdbjb/">Open Programming Session (Wednesday)&lt;/a>&lt;/li>
+&lt;li>2019-02-06 in Austin, TX, USA by Austin Haskell Users Group: &lt;a href="https://www.meetup.com/ATX-Haskell/events/dsldppyzdbjb/">Haskell Beginner-Friendly Lab&lt;/a>&lt;/li>
+&lt;li>2019-02-06 in Washington, DC, USA by The Joy of Programming Meetup: &lt;a href="https://www.meetup.com/Joy-of-Programming-DC/events/xpnxbpyzdbjb/">Next Round (TBD)&lt;/a>&lt;/li>
+&lt;li>2019-02-06 in Bellevue, WA, USA by SeaLang: &lt;a href="https://www.meetup.com/SeaLang/events/255375617/">Understanding Git Internals&lt;/a>&lt;/li>
+&lt;li>2019-02-06 in Montréal, QC, Canada by Lambda Montreal: &lt;a href="https://www.meetup.com/lambda-montreal/events/258177731/">Samuel Gélineau presents: Clowns to the left of me, Jokers to the right&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Europe&lt;/h3>
+&lt;ul>
+&lt;li>2019-01-31 in Zürich, Switzerland by HaskellerZ: &lt;a href="https://www.meetup.com/HaskellerZ/events/257937027/">Michal Terepeta - Implementing Immutable Vectors in Haskell&lt;/a>&lt;/li>
+&lt;li>2019-01-31 in Belgrade, Serbia by Elixir |&amp;gt; Belgrade: &lt;a href="https://www.meetup.com/elixirbelgrade/events/257139789/">Distribuirani real-time chat za 5 sati uz pomoć Elixir-a&lt;/a>&lt;/li>
+&lt;li>2019-02-04 in Exeter, United Kingdom by Exeter Functional Programmers: &lt;a href="https://www.meetup.com/Exeter-Functional-Programmers/events/nxxtmqyzdbgb/">Talk functional&lt;/a>&lt;/li>
+&lt;li>2019-02-04 in Zagreb, Croatia by the Lambda Zagreb Meetup Group: &lt;a href="https://www.meetup.com/lambdazagreb/events/257933910/">Terminating and Productive Functions&lt;/a>&lt;/li>
+&lt;li>2019-02-05 in Bristol, United Kingdom by CodeHub Bristol: &lt;a href="https://www.meetup.com/CodeHub-Bristol/events/kdbxqqyzdbhb/">Hack Night&lt;/a>&lt;/li>
+&lt;li>2019-02-06 in Berlin, Germany by Berlin Haskell Users Group: &lt;a href="https://www.meetup.com/berlinhug/events/pvpwqpyzdbjb/">Haskell Wednesday&lt;/a>&lt;/li>
+&lt;li>2019-02-06 in Dublin, Ireland by Clojure Ireland: &lt;a href="https://www.meetup.com/Clojure-Ireland/events/258448826/">ClojureScript night: talks on shadow-cljs &amp;amp; CSS&lt;/a>&lt;/li>
+&lt;li>2019-02-06 in Bucharest, Romania by Bucharest FP: &lt;a href="https://www.meetup.com/bucharestfp/events/258384298/">Bucharest FP #39 — Haskell Book Study Group 01&lt;/a>&lt;/li>
+&lt;li>2019-02-06 in Gdańsk, Poland by Functional Tricity: &lt;a href="https://www.meetup.com/FunctionalTricity/events/258096469/">Funtional Tricity #15 Applicative Functors&amp;amp;Haskell&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Oceania&lt;/h3>
+&lt;ul>
+&lt;li>2019-01-31 in Melbourne, Australia by Melbourne Haskell Users Group: &lt;a href="https://www.meetup.com/Melbourne-Haskell-Users-Group/events/qfptslyzcbpc/">Miso Diagrams - Noon Silk - MHUG&lt;/a>&lt;/li>
+&lt;li>2019-02-04 in Melbourne, Australia by Elm Melbourne: &lt;a href="https://www.meetup.com/Elm-Melbourne/events/wvhsfpyzdbgb/">Elm hack night&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>South America&lt;/h3>
+&lt;ul>
+&lt;li>2019-01-30 in Quito, Ecuador by Quito Lambda: &lt;a href="https://www.meetup.com/Quito-Lambda-Meetup/events/mscxlpyzcbfc/">Introducción a ReasonML y Reason-React&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Asia&lt;/h3>
+&lt;ul>
+&lt;li>2019-02-03 in Bangalore, India by Bangalore Functional Programmers Meetup: &lt;a href="https://www.meetup.com/Bangalore-Functional-Programmers-Meetup/events/257190264/">Dependent Types&lt;/a>&lt;/li>
+&lt;/ul>
+</content>
+</entry>
+
+</feed>
